@@ -15,7 +15,7 @@ public class OddorEven
         int r = 0;
         System.out.println("Enter number: ");
         num = sc.nextInt();
-        
+
         while (num != 0) {
             r = num % 10;
             if (r % 2== 0) {
